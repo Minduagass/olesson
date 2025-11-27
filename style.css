@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  /* justify-items: center; */
+  /* align-content: center; */
+  place-items: center;
+  place-content: center;
+  margin: 2rem;
+  height: 500px;
+}
+
+.login {
+  /* display: grid; */
+  width: 500px;
+  height: 500px;
+  border: 2px solid rgb(180, 176, 176);
+  /* background-color: floralwhite; */
+}
+
+.logo {
+  width: 120px;
+  /* height: fit-content; */
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.logo-social {
+  width: 60px;
+  /* height: fit-content; */
+  /* padding-left: 5px; */
+  /* padding-top: 10px; */
+}
+
+.text {
+  text-align: center;
+  padding-top: 6rem;
+  font-size: 1.2rem;
+}
+
+.social {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.lined {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.lined::before,
+.lined::after {
+  content: "";
+  width: 133px;
+  height: 2px;
+  background: rgb(180, 176, 176);
+}
+
+.input {
+  display: grid;
+  justify-items: center;
+  gap: 0.5rem;
+}
+
+.input input {
+  width: 300px;
+  height: 35px;
+  border-radius: 0.8rem;
+  background-color: rgb(224, 220, 220);
+  padding-left: 5px;
+  border: none;
+}
+
+.sign-in {
+  display: grid;
+  justify-items: center;
+  padding-top: 1.2rem;
+}
+
+.sign-in button {
+  width: 150px;
+  height: 40px;
+  border-radius: 0.8rem;
+  background-color: rgb(119, 188, 16);
+  color: white;
+  border: none;
+}
+
+.sign-in button:hover {
+  background-color: rgb(95, 151, 10);
+}
+
+.sign-in button:active {
+  scale: 0.99;
+}
+
+.register {
+  width: 300px;
+  height: 500px;
+  background-image: url(./9568816.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-right: 2px solid rgb(180, 176, 176);
+  border-top: 2px solid rgb(180, 176, 176);
+  border-bottom: 2px solid rgb(180, 176, 176);
+}
+
+.reg-title {
+  color: white;
+  padding-top: 10rem;
+  text-align: center;
+}
+
+.reg {
+  color: white;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.reg button {
+  width: 150px;
+  height: 40px;
+  border-radius: 0.8rem;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: none;
+}
+
+.reg button:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.reg button:active {
+  scale: 0.99;
+}
